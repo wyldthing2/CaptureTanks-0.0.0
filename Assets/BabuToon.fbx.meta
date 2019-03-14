@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: d16eab8a5064b164097c3992393c4f03
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature.000
+    100002: Armature.001
+    100004: Armature.002
+    100006: Armature.003
+    100008: Armature.004
+    100010: Armature.005
+    100012: ArmBottom_L
+    100014: ArmBottom_L 1
+    100016: ArmBottom_L 2
+    100018: ArmBottom_L 3
+    100020: ArmBottom_L 4
+    100022: ArmBottom_L 5
+    100024: ArmBottom_L_end
+    100026: ArmBottom_L_end 1
+    100028: ArmBottom_L_end 2
+    100030: ArmBottom_L_end 3
+    100032: ArmBottom_L_end 4
+    100034: ArmBottom_L_end 5
+    100036: ArmBottom_R
+    100038: ArmBottom_R 1
+    100040: ArmBottom_R 2
+    100042: ArmBottom_R 3
+    100044: ArmBottom_R_end
+    100046: ArmBottom_R_end 1
+    100048: ArmBottom_R_end 2
+    100050: ArmBottom_R_end 3
+    100052: ArmMid_L
+    100054: ArmMid_L 1
+    100056: ArmMid_L 2
+    100058: ArmMid_L 3
+    100060: ArmMid_L 4
+    100062: ArmMid_L 5
+    100064: ArmMid_R
+    100066: ArmMid_R 1
+    100068: ArmMid_R 2
+    100070: ArmMid_R 3
+    100072: ArmTop_L
+    100074: ArmTop_L 1
+    100076: ArmTop_L 2
+    100078: ArmTop_L 3
+    100080: ArmTop_L 4
+    100082: ArmTop_L 5
+    100084: ArmTop_R
+    100086: ArmTop_R 1
+    100088: ArmTop_R 2
+    100090: ArmTop_R 3
+    100092: Babu_PacGhost
+    100094: Babu_PacGhost.001
+    100096: //RootNode
+    100098: Body
+    100100: Body 1
+    100102: Body 2
+    100104: Body 3
+    100106: Body 4
+    100108: Body 5
+    100110: Bottom
+    100112: Bottom 1
+    100114: Bottom 2
+    100116: Bottom 3
+    100118: Bottom 4
+    100120: Bottom 5
+    100122: Cube.000
+    100124: Cube.001
+    100126: Cube.002
+    100128: Cube.003
+    100130: Cube.004
+    100132: Cube.005
+    100134: Cube.006
+    100136: Cube.007
+    100138: Cube.008
+    100140: Cube.009
+    100142: Cube.010
+    100144: Cube.011
+    100146: Cube.012
+    100148: Cube.013
+    100150: Cube.014
+    100152: Cube.015
+    100154: Cube.016
+    100156: Cube.017
+    100158: Cube.018
+    100160: Cube.019
+    100162: Cube.020
+    100164: Cube.021
+    100166: Cube.022
+    100168: Cube.023
+    100170: Cube.024
+    100172: Cube.025
+    100174: Cube.026
+    100176: Cube.027
+    100178: Cube.028
+    100180: Cube.029
+    100182: Cube.030
+    100184: Cube.031
+    100186: Cube.032
+    100188: Cube.033
+    100190: Cube.034
+    100192: Cube.035
+    100194: Cube.036
+    100196: Cube.037
+    100198: Cube.038
+    100200: Cube.039
+    100202: Cube.040
+    100204: Cube.041
+    100206: Cube.042
+    100208: Cube.043
+    100210: Cube.044
+    100212: Cube.045
+    100214: Cube.046
+    100216: Cube.047
+    100218: Cube.048
+    100220: Cube.049
+    100222: Cube.050
+    100224: Cube.051
+    100226: Cube.052
+    100228: Cube.053
+    100230: Cube.054
+    100232: Cube.055
+    100234: Cube.056
+    100236: Cube.057
+    100238: Cube.058
+    100240: Cube.059
+    100242: Cube.060
+    100244: Cube.061
+    100246: Cube.062
+    100248: Cube.063
+    100250: Cube.064
+    100252: Cube.065
+    100254: Cube.066
+    100256: Cube.067
+    100258: Cube.068
+    100260: Cube.069
+    100262: Cube.070
+    100264: Leg_L
+    100266: Leg_L 1
+    100268: Leg_L 2
+    100270: Leg_L 3
+    100272: Leg_R
+    100274: Leg_R 1
+    100276: Leg_R 2
+    100278: Leg_R 3
+    100280: LegBack_L
+    100282: LegBack_L 1
+    100284: LegBack_L 2
+    100286: LegBack_L 3
+    100288: LegBack_L_end
+    100290: LegBack_L_end 1
+    100292: LegBack_L_end 2
+    100294: LegBack_L_end 3
+    100296: LegBack_R
+    100298: LegBack_R 1
+    100300: LegBack_R 2
+    100302: LegBack_R 3
+    100304: LegBack_R_end
+    100306: LegBack_R_end 1
+    100308: LegBack_R_end 2
+    100310: LegBack_R_end 3
+    100312: LegFront_L
+    100314: LegFront_L 1
+    100316: LegFront_L 2
+    100318: LegFront_L 3
+    100320: LegFront_L_end
+    100322: LegFront_L_end 1
+    100324: LegFront_L_end 2
+    100326: LegFront_L_end 3
+    100328: LegFront_R
+    100330: LegFront_R 1
+    100332: LegFront_R 2
+    100334: LegFront_R 3
+    100336: LegFront_R_end
+    100338: LegFront_R_end 1
+    100340: LegFront_R_end 2
+    100342: LegFront_R_end 3
+    100344: LegMid_L
+    100346: LegMid_L 1
+    100348: LegMid_L 2
+    100350: LegMid_L 3
+    100352: LegMid_L_end
+    100354: LegMid_L_end 1
+    100356: LegMid_L_end 2
+    100358: LegMid_L_end 3
+    100360: LegMid_R
+    100362: LegMid_R 1
+    100364: LegMid_R 2
+    100366: LegMid_R 3
+    100368: LegMid_R_end
+    100370: LegMid_R_end 1
+    100372: LegMid_R_end 2
+    100374: LegMid_R_end 3
+    100376: Plane
+    100378: Top
+    100380: Top 1
+    100382: Top 2
+    100384: Top 3
+    100386: Top 4
+    100388: Top 5
+    100390: Top_end
+    100392: Top_end 1
+    100394: Top_end 2
+    100396: Top_end 3
+    100398: Walls
+    100400: Walls.001
+    400000: Armature.000
+    400002: Armature.001
+    400004: Armature.002
+    400006: Armature.003
+    400008: Armature.004
+    400010: Armature.005
+    400012: ArmBottom_L
+    400014: ArmBottom_L 1
+    400016: ArmBottom_L 2
+    400018: ArmBottom_L 3
+    400020: ArmBottom_L 4
+    400022: ArmBottom_L 5
+    400024: ArmBottom_L_end
+    400026: ArmBottom_L_end 1
+    400028: ArmBottom_L_end 2
+    400030: ArmBottom_L_end 3
+    400032: ArmBottom_L_end 4
+    400034: ArmBottom_L_end 5
+    400036: ArmBottom_R
+    400038: ArmBottom_R 1
+    400040: ArmBottom_R 2
+    400042: ArmBottom_R 3
+    400044: ArmBottom_R_end
+    400046: ArmBottom_R_end 1
+    400048: ArmBottom_R_end 2
+    400050: ArmBottom_R_end 3
+    400052: ArmMid_L
+    400054: ArmMid_L 1
+    400056: ArmMid_L 2
+    400058: ArmMid_L 3
+    400060: ArmMid_L 4
+    400062: ArmMid_L 5
+    400064: ArmMid_R
+    400066: ArmMid_R 1
+    400068: ArmMid_R 2
+    400070: ArmMid_R 3
+    400072: ArmTop_L
+    400074: ArmTop_L 1
+    400076: ArmTop_L 2
+    400078: ArmTop_L 3
+    400080: ArmTop_L 4
+    400082: ArmTop_L 5
+    400084: ArmTop_R
+    400086: ArmTop_R 1
+    400088: ArmTop_R 2
+    400090: ArmTop_R 3
+    400092: Babu_PacGhost
+    400094: Babu_PacGhost.001
+    400096: //RootNode
+    400098: Body
+    400100: Body 1
+    400102: Body 2
+    400104: Body 3
+    400106: Body 4
+    400108: Body 5
+    400110: Bottom
+    400112: Bottom 1
+    400114: Bottom 2
+    400116: Bottom 3
+    400118: Bottom 4
+    400120: Bottom 5
+    400122: Cube.000
+    400124: Cube.001
+    400126: Cube.002
+    400128: Cube.003
+    400130: Cube.004
+    400132: Cube.005
+    400134: Cube.006
+    400136: Cube.007
+    400138: Cube.008
+    400140: Cube.009
+    400142: Cube.010
+    400144: Cube.011
+    400146: Cube.012
+    400148: Cube.013
+    400150: Cube.014
+    400152: Cube.015
+    400154: Cube.016
+    400156: Cube.017
+    400158: Cube.018
+    400160: Cube.019
+    400162: Cube.020
+    400164: Cube.021
+    400166: Cube.022
+    400168: Cube.023
+    400170: Cube.024
+    400172: Cube.025
+    400174: Cube.026
+    400176: Cube.027
+    400178: Cube.028
+    400180: Cube.029
+    400182: Cube.030
+    400184: Cube.031
+    400186: Cube.032
+    400188: Cube.033
+    400190: Cube.034
+    400192: Cube.035
+    400194: Cube.036
+    400196: Cube.037
+    400198: Cube.038
+    400200: Cube.039
+    400202: Cube.040
+    400204: Cube.041
+    400206: Cube.042
+    400208: Cube.043
+    400210: Cube.044
+    400212: Cube.045
+    400214: Cube.046
+    400216: Cube.047
+    400218: Cube.048
+    400220: Cube.049
+    400222: Cube.050
+    400224: Cube.051
+    400226: Cube.052
+    400228: Cube.053
+    400230: Cube.054
+    400232: Cube.055
+    400234: Cube.056
+    400236: Cube.057
+    400238: Cube.058
+    400240: Cube.059
+    400242: Cube.060
+    400244: Cube.061
+    400246: Cube.062
+    400248: Cube.063
+    400250: Cube.064
+    400252: Cube.065
+    400254: Cube.066
+    400256: Cube.067
+    400258: Cube.068
+    400260: Cube.069
+    400262: Cube.070
+    400264: Leg_L
+    400266: Leg_L 1
+    400268: Leg_L 2
+    400270: Leg_L 3
+    400272: Leg_R
+    400274: Leg_R 1
+    400276: Leg_R 2
+    400278: Leg_R 3
+    400280: LegBack_L
+    400282: LegBack_L 1
+    400284: LegBack_L 2
+    400286: LegBack_L 3
+    400288: LegBack_L_end
+    400290: LegBack_L_end 1
+    400292: LegBack_L_end 2
+    400294: LegBack_L_end 3
+    400296: LegBack_R
+    400298: LegBack_R 1
+    400300: LegBack_R 2
+    400302: LegBack_R 3
+    400304: LegBack_R_end
+    400306: LegBack_R_end 1
+    400308: LegBack_R_end 2
+    400310: LegBack_R_end 3
+    400312: LegFront_L
+    400314: LegFront_L 1
+    400316: LegFront_L 2
+    400318: LegFront_L 3
+    400320: LegFront_L_end
+    400322: LegFront_L_end 1
+    400324: LegFront_L_end 2
+    400326: LegFront_L_end 3
+    400328: LegFront_R
+    400330: LegFront_R 1
+    400332: LegFront_R 2
+    400334: LegFront_R 3
+    400336: LegFront_R_end
+    400338: LegFront_R_end 1
+    400340: LegFront_R_end 2
+    400342: LegFront_R_end 3
+    400344: LegMid_L
+    400346: LegMid_L 1
+    400348: LegMid_L 2
+    400350: LegMid_L 3
+    400352: LegMid_L_end
+    400354: LegMid_L_end 1
+    400356: LegMid_L_end 2
+    400358: LegMid_L_end 3
+    400360: LegMid_R
+    400362: LegMid_R 1
+    400364: LegMid_R 2
+    400366: LegMid_R 3
+    400368: LegMid_R_end
+    400370: LegMid_R_end 1
+    400372: LegMid_R_end 2
+    400374: LegMid_R_end 3
+    400376: Plane
+    400378: Top
+    400380: Top 1
+    400382: Top 2
+    400384: Top 3
+    400386: Top 4
+    400388: Top 5
+    400390: Top_end
+    400392: Top_end 1
+    400394: Top_end 2
+    400396: Top_end 3
+    400398: Walls
+    400400: Walls.001
+    2100000: Material.004
+    2100002: Material.015
+    2100004: Material.002
+    2100006: Material
+    2100008: No Name
+    2100010: Material.010
+    2100012: Material.003
+    2100014: Material.011
+    2100016: Material.013
+    2100018: Material.008
+    2100020: Material.014
+    2100022: Material.012
+    2100024: Material.009
+    2300000: Babu_PacGhost
+    2300002: Babu_PacGhost.001
+    2300004: Cube.000
+    2300006: Cube.001
+    2300008: Cube.002
+    2300010: Cube.003
+    2300012: Cube.004
+    2300014: Cube.005
+    2300016: Cube.006
+    2300018: Cube.007
+    2300020: Cube.008
+    2300022: Cube.009
+    2300024: Cube.010
+    2300026: Cube.011
+    2300028: Cube.012
+    2300030: Cube.013
+    2300032: Cube.014
+    2300034: Cube.015
+    2300036: Cube.016
+    2300038: Cube.017
+    2300040: Cube.018
+    2300042: Cube.019
+    2300044: Cube.020
+    2300046: Cube.021
+    2300048: Cube.022
+    2300050: Cube.023
+    2300052: Cube.024
+    2300054: Cube.025
+    2300056: Cube.026
+    2300058: Cube.027
+    2300060: Cube.028
+    2300062: Cube.029
+    2300064: Cube.031
+    2300066: Cube.032
+    2300068: Cube.033
+    2300070: Cube.034
+    2300072: Cube.035
+    2300074: Cube.036
+    2300076: Cube.037
+    2300078: Cube.038
+    2300080: Cube.039
+    2300082: Cube.040
+    2300084: Cube.041
+    2300086: Cube.042
+    2300088: Cube.043
+    2300090: Cube.044
+    2300092: Cube.045
+    2300094: Cube.046
+    2300096: Cube.047
+    2300098: Cube.048
+    2300100: Cube.049
+    2300102: Cube.050
+    2300104: Cube.051
+    2300106: Cube.052
+    2300108: Cube.053
+    2300110: Cube.054
+    2300112: Cube.055
+    2300114: Cube.056
+    2300116: Cube.057
+    2300118: Cube.058
+    2300120: Cube.059
+    2300122: Cube.060
+    2300124: Cube.061
+    2300126: Cube.062
+    2300128: Cube.063
+    2300130: Cube.064
+    2300132: Cube.065
+    2300134: Cube.066
+    2300136: Plane
+    2300138: Walls
+    2300140: Walls.001
+    3300000: Babu_PacGhost
+    3300002: Babu_PacGhost.001
+    3300004: Cube.000
+    3300006: Cube.001
+    3300008: Cube.002
+    3300010: Cube.003
+    3300012: Cube.004
+    3300014: Cube.005
+    3300016: Cube.006
+    3300018: Cube.007
+    3300020: Cube.008
+    3300022: Cube.009
+    3300024: Cube.010
+    3300026: Cube.011
+    3300028: Cube.012
+    3300030: Cube.013
+    3300032: Cube.014
+    3300034: Cube.015
+    3300036: Cube.016
+    3300038: Cube.017
+    3300040: Cube.018
+    3300042: Cube.019
+    3300044: Cube.020
+    3300046: Cube.021
+    3300048: Cube.022
+    3300050: Cube.023
+    3300052: Cube.024
+    3300054: Cube.025
+    3300056: Cube.026
+    3300058: Cube.027
+    3300060: Cube.028
+    3300062: Cube.029
+    3300064: Cube.031
+    3300066: Cube.032
+    3300068: Cube.033
+    3300070: Cube.034
+    3300072: Cube.035
+    3300074: Cube.036
+    3300076: Cube.037
+    3300078: Cube.038
+    3300080: Cube.039
+    3300082: Cube.040
+    3300084: Cube.041
+    3300086: Cube.042
+    3300088: Cube.043
+    3300090: Cube.044
+    3300092: Cube.045
+    3300094: Cube.046
+    3300096: Cube.047
+    3300098: Cube.048
+    3300100: Cube.049
+    3300102: Cube.050
+    3300104: Cube.051
+    3300106: Cube.052
+    3300108: Cube.053
+    3300110: Cube.054
+    3300112: Cube.055
+    3300114: Cube.056
+    3300116: Cube.057
+    3300118: Cube.058
+    3300120: Cube.059
+    3300122: Cube.060
+    3300124: Cube.061
+    3300126: Cube.062
+    3300128: Cube.063
+    3300130: Cube.064
+    3300132: Cube.065
+    3300134: Cube.066
+    3300136: Plane
+    3300138: Walls
+    3300140: Walls.001
+    4300000: Cube.070
+    4300002: Cube.069
+    4300004: Cube.068
+    4300006: Cube.067
+    4300008: Cube.030
+    4300010: Cube.066
+    4300012: Cube.065
+    4300014: Cube.064
+    4300016: Cube.063
+    4300018: Cube.062
+    4300020: Cube.061
+    4300022: Cube.060
+    4300024: Cube.059
+    4300026: Cube.058
+    4300028: Cube.057
+    4300030: Cube.056
+    4300032: Cube.055
+    4300034: Walls.001
+    4300036: Cube.054
+    4300038: Babu_PacGhost.001
+    4300040: Cube.053
+    4300042: Cube.052
+    4300044: Cube.051
+    4300046: Cube.050
+    4300048: Cube.049
+    4300050: Cube.048
+    4300052: Cube.047
+    4300054: Cube.046
+    4300056: Cube.045
+    4300058: Cube.044
+    4300060: Cube.043
+    4300062: Cube.042
+    4300064: Cube.029
+    4300066: Cube.041
+    4300068: Cube.040
+    4300070: Cube.039
+    4300072: Cube.038
+    4300074: Cube.037
+    4300076: Cube.036
+    4300078: Cube.035
+    4300080: Cube.034
+    4300082: Cube.033
+    4300084: Cube.032
+    4300086: Cube.031
+    4300088: Cube.028
+    4300090: Cube.027
+    4300092: Cube.026
+    4300094: Cube.025
+    4300096: Cube.024
+    4300098: Cube.023
+    4300100: Cube.022
+    4300102: Cube.021
+    4300104: Cube.020
+    4300106: Cube.019
+    4300108: Cube.018
+    4300110: Cube.016
+    4300112: Babu_PacGhost
+    4300114: Cube.017
+    4300116: Walls
+    4300118: Cube.015
+    4300120: Cube.014
+    4300122: Cube.013
+    4300124: Cube.012
+    4300126: Cube.011
+    4300128: Cube.010
+    4300130: Cube.009
+    4300132: Cube.008
+    4300134: Cube.007
+    4300136: Cube.006
+    4300138: Cube.005
+    4300140: Cube.002
+    4300142: Plane
+    4300144: Cube.004
+    4300146: Cube.001
+    4300148: Cube.000
+    4300150: Cube.003
+    7400000: Armature.002Action.002
+    7400002: Armature.002Action.001
+    7400004: Armature.005|Armature.002Action
+    7400006: Armature.005|Armature.002Action.001
+    7400008: Armature.005|Armature.002Action.002
+    7400010: Armature.005|Armature.002Action.003
+    7400012: Armature.005|Armature.002Action.004
+    7400014: Armature.005|PoseLib
+    7400016: Armature.004|Armature.002Action
+    7400018: Armature.004|Armature.002Action.001
+    7400020: Armature.004|Armature.002Action.002
+    7400022: Armature.004|Armature.002Action.003
+    7400024: Armature.004|Armature.002Action.004
+    7400026: Armature.004|PoseLib
+    7400028: Armature.003|Armature.002Action
+    7400030: Armature.003|Armature.002Action.001
+    7400032: Armature.003|Armature.002Action.002
+    7400034: Armature.003|Armature.002Action.003
+    7400036: Armature.003|Armature.002Action.004
+    7400038: Armature.003|PoseLib
+    7400040: Armature.002|Armature.002Action
+    7400042: Armature.002|Armature.002Action.001
+    7400044: Armature.002|Armature.002Action.002
+    7400046: Armature.002|Armature.002Action.003
+    7400048: Armature.002|Armature.002Action.004
+    7400050: Armature.002|PoseLib
+    9500000: //RootNode
+    13700000: Cube.030
+    13700002: Cube.067
+    13700004: Cube.068
+    13700006: Cube.069
+    13700008: Cube.070
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

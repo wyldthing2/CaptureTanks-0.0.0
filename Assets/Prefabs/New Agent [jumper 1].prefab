@@ -1,0 +1,1210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1868867364440676}
+  m_IsPrefabAsset: 1
+--- !u!1 &1063831392397402
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4291299331000690}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1098683506257014
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4666326396426220}
+  m_Layer: 0
+  m_Name: Body_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1219897015392646
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4028574869462184}
+  m_Layer: 0
+  m_Name: Armature
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1310383582682300
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4401556854248728}
+  - component: {fileID: 136202999776690804}
+  - component: {fileID: 195765684028874840}
+  - component: {fileID: 114694935809204982}
+  - component: {fileID: 114858316601488836}
+  - component: {fileID: 114823989005487050}
+  - component: {fileID: 136792710936408612}
+  m_Layer: 0
+  m_Name: jumper 1
+  m_TagString: Blob
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1654845234189650
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4396193131916972}
+  - component: {fileID: 33551184454297410}
+  - component: {fileID: 23440317500849108}
+  m_Layer: 0
+  m_Name: MonsterChild
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1689347264960882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4640201565758516}
+  m_Layer: 0
+  m_Name: Swap Model Here
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1735313658898342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4531321178858614}
+  m_Layer: 0
+  m_Name: _Base Position (Feet)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1868867364440676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4774999696754938}
+  - component: {fileID: 136507679303459918}
+  - component: {fileID: 114934543963034048}
+  - component: {fileID: 114862944336227874}
+  - component: {fileID: 114380295680211736}
+  - component: {fileID: 114284196475353696}
+  - component: {fileID: 114948912159314088}
+  - component: {fileID: 114375738104810164}
+  - component: {fileID: 114462333190202458}
+  - component: {fileID: 114087549808113030}
+  - component: {fileID: 114406635300403886}
+  - component: {fileID: 114314899629036440}
+  - component: {fileID: 114469560217130754}
+  - component: {fileID: 114425658531130194}
+  m_Layer: 0
+  m_Name: New Agent [jumper 1]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1871037905616340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4974731428705588}
+  m_Layer: 0
+  m_Name: _Collision Sensor Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1880768034211452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4486991273328940}
+  m_Layer: 0
+  m_Name: _Scan Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1988269442564578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4565334510006928}
+  - component: {fileID: 114219065530966738}
+  m_Layer: 0
+  m_Name: NOTES / INSTRUCTIONS (Delete)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4028574869462184
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1219897015392646}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 50.90068}
+  m_Children:
+  - {fileID: 4291299331000690}
+  m_Father: {fileID: 4401556854248728}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4291299331000690
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063831392397402}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4666326396426220}
+  m_Father: {fileID: 4028574869462184}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4396193131916972
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654845234189650}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 83.35405, y: 83.35405, z: 83.35405}
+  m_Children: []
+  m_Father: {fileID: 4401556854248728}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4401556854248728
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310383582682300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 4028574869462184}
+  - {fileID: 4396193131916972}
+  m_Father: {fileID: 4640201565758516}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4486991273328940
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880768034211452}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4774999696754938}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4531321178858614
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735313658898342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4774999696754938}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4565334510006928
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988269442564578}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -99, y: -29.34, z: -97}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4774999696754938}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4640201565758516
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689347264960882}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4401556854248728}
+  m_Father: {fileID: 4774999696754938}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4666326396426220
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1098683506257014}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0008, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4291299331000690}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4774999696754938
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99, y: 29.34, z: 97}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4640201565758516}
+  - {fileID: 4565334510006928}
+  - {fileID: 4486991273328940}
+  - {fileID: 4974731428705588}
+  - {fileID: 4531321178858614}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4974731428705588
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1871037905616340}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4774999696754938}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23440317500849108
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654845234189650}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 42f18f5b8302b304f956857c6ee0e294, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33551184454297410
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654845234189650}
+  m_Mesh: {fileID: 4300000, guid: 7e17944c4e00c7e4d8d8e10e6f96f03b, type: 3}
+--- !u!114 &114087549808113030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 654438486, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stances: []
+  setInitial: 0
+  initialStanceName: 
+--- !u!114 &114219065530966738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988269442564578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -596982978, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: "This adds a basic animal AI. \n It wanders by default and flees when attacked.
+    It adds 2 actions under Brain (Wander, Flee) and adds Wander, Flee controllers."
+  directions: '1) Set up Mechanim Animator slot with avatar and animation controller.
+    You can use our ''Simple Animal Controller''
+
+    2) Swap out walk/run/idle animations in Simple Animal Controller
+
+    3) Setup optional death animations. Add this in Effect-Builder first, then add
+    effect name to Health Controller, ''Effect On Death''
+
+    4) Edit Flee and Wander settings in the attached Controllers
+
+    5) Drag _ScanPosition and collisionSensorPosition to animal eye area.'
+  q: This is a simple way to discuss how things are done and give instructions to
+    edit certain things. Delete this on Production.
+--- !u!114 &114284196475353696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1660072134, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorSightRangeEditor: {r: 0, g: 0, b: 1, a: 1}
+  scannerPosition: {fileID: 4486991273328940}
+  basePosition: {fileID: 4531321178858614}
+  enemyFactions:
+  - Team2
+  friendlyFactions: []
+  sightRange: 75
+  angleOfSight: 300
+  checkLOS: 1
+  hearingEnabled: 1
+  noiseSensorResetTime: 5
+  enemyList: []
+  lastSightedEnemyList: []
+  allyList: []
+  memoryResetTime: 10
+  updateTime: 0.5
+  noiseDetected: 0
+  lastNoiseLocation: {x: 0, y: 0, z: 0}
+  objectsWithinSight:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isInAir: 0
+--- !u!114 &114314899629036440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1967316042, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messageReceived: 0
+  signalLocation: {x: 0, y: 0, z: 0}
+--- !u!114 &114375738104810164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1056938790, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  armor: 0
+  shieldsOff: 0
+  shields: 0
+  healthRegenRate: 0
+  shieldRegenRate: 0
+  godMode: 0
+  effectOnDeath: 
+  effectOnHit: 
+  effectOnRevive: 
+  effectOnDamageAvoided: 
+  effectOnHealthRegen: 
+  effectOnShieldRegen: 
+  onHitLookAtAttacker: 1
+  customScriptEvents:
+    functionOnHit: 
+    functionOnDamageTaken: 
+    functionOnDamageAvoided: 
+    functionOnDamageShield: 
+    functionOnDeath: 
+    functionOnRevive: 
+    functionOnSetNewHealthRegen: 
+    functionOnHealShield: 
+    functionOnHealHealth: 
+    functionOnSetNewShield: 
+    functionOnSetNewHealth: 
+    functionOnSetNewArmor: 
+    functionOnShieldRegen: 
+    functionOnHealthRegen: 
+  useCustomHealthCode: 0
+  myDamageFunctionName: 
+  lastAttacker: {fileID: 0}
+  lastAttackerFaction: 
+  alive: 1
+  lastDamage: 0
+  isTakingDamage: 0
+--- !u!114 &114380295680211736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -650141441, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 0}
+  transform_cache: {fileID: 0}
+  awareMod: {fileID: 0}
+  moveMod: {fileID: 0}
+  targetMod: {fileID: 0}
+  healthMod: {fileID: 0}
+  wanderMod: {fileID: 0}
+  fleeMod: {fileID: 0}
+  patrolMod: {fileID: 0}
+  coverMod: {fileID: 0}
+  signalMod: {fileID: 0}
+  pa: {fileID: 0}
+  ebx: {fileID: 0}
+  id: {fileID: 0}
+  objectPool: {fileID: 0}
+  stance: {fileID: 0}
+  capCollider: {fileID: 0}
+  rb: {fileID: 0}
+  avatar: {fileID: 0}
+  isReady: 0
+--- !u!114 &114406635300403886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1443701972, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effects: []
+--- !u!114 &114425658531130194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1089631962, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fleeDistanceMultiplier: 1
+--- !u!114 &114462333190202458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1730097772, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorColor: {r: 1, g: 0, b: 0, a: 1}
+  targetPositionMode: 0
+  targetStrategy: 0
+  releaseTargetWhenOutOfRange: 1
+  enableRangedCombat: 0
+  shootRange: 30
+  fireAngle: 180
+  enableMeleeCombat: 0
+  meleeRange: 2
+  targetThisClass: 
+  targetThisObject: {fileID: 0}
+  activateStrategyOnFlag:
+    flagTargetNearest: 
+    flagTargetClass: 
+    flagTargetMostWeight: 
+    flagTargetLeastWeight: 
+    flagTargetMostHealth: 
+    flagTargetLeastHealth: 
+    flagTargetMostInjured: 
+    flagTargetLeastInjured: 
+    flagTargetCustomObject: 
+  useCustomTargetCode: 0
+  myPickTargetFunctionName: 
+  currentTarget: {fileID: 0}
+  currentTargetPoint: {x: 0, y: 0, z: 0}
+  targetFound: 0
+  canRangedAttack: 0
+  canMeleeAttack: 0
+  distanceToTarget: 0
+--- !u!114 &114469560217130754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 360180839, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorColor: {r: 0, g: 1, b: 0, a: 1}
+  maxRange: 7.73
+  minPathChangeTime: 8
+  maxPathChangeTime: 16
+  idleStartTime: 8
+  idleTime: 3
+  wanderType: 0
+  customObject: {fileID: 0}
+  pausedAtWaypoint: 0
+  idleLoopBegin: 0
+--- !u!114 &114694935809204982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310383582682300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e982b88bfc7f9e64cb8544c7ca32f7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  giveUpTime: 40
+  jumpForce: 40
+  timeNewTarget: 0
+  bList: []
+  agent: {fileID: 195765684028874840}
+--- !u!114 &114823989005487050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310383582682300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 2
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 15
+  m_InterpolateMovement: 1
+--- !u!114 &114858316601488836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310383582682300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 191
+    i1: 99
+    i2: 249
+    i3: 23
+    i4: 0
+    i5: 130
+    i6: 163
+    i7: 116
+    i8: 24
+    i9: 82
+    i10: 7
+    i11: 119
+    i12: 102
+    i13: 38
+    i14: 26
+    i15: 231
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114862944336227874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -352638900, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Unnamed AI
+  faction: Neutral
+  bio: This character's past is shrouded in mystery...
+  charClass: Assault
+  pieceValueWeight: 0.5
+  characterInfo: []
+--- !u!114 &114934543963034048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1417960568, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalActive: 0
+  aiActions:
+  - Name: Wander if no threats detected
+    active: 0
+    DisableThisGroup: 0
+    InitialAction: 0
+    CheckOnce: 0
+    CheckEachTick: 1
+    targetingConditions:
+      IfNoThreatsDetected: 1
+      NoiseDetected: 0
+      rangeMode: 0
+      TargetInSight: 0
+      TargetNotInSight: 0
+      MatchTargetClass: 0
+      TargetClass: 
+      MatchTargetName: 0
+      TargetName: 
+      MatchTargetCharInfo: 0
+      FieldName: 
+      FieldContent: 
+      TargetDistGreaterThan: 0
+      MinEnemyDistance: 0
+      TargetDistLessThan: 0
+      MaxEnemyDistance: 0
+      CheckTargetHealth: 0
+      MinTargetHealth: 0
+      MaxTargetHealth: 0
+      CheckTargetWeight: 0
+      MinTargetWeight: 0
+      MaxTargetWeight: 0
+    agentConditions:
+      CheckIAmDead: 0
+      CheckMyHealth: 0
+      MinMyHealth: 0
+      MaxMyHealth: 0
+      CheckImUnderAttack: 0
+    signalConditions:
+      checkSignalReceiver: 0
+      thisSignal: 
+      checkNoise: 0
+    flagConditions:
+      checkFlags: 0
+      checkTheseFlags: []
+      checkFlagsInactive: 0
+      checkTheseFlagsInactive: []
+      checkGlobalFlags: 0
+      checkTheseGlobalFlags: []
+      checkGlobalFlagsInactive: 0
+      checkTheseGlobalFlagsInactive: []
+    chanceOfAction:
+      enableChance: 0
+      chance: 0
+    takeNoAction: 0
+    changeMovementSpeed:
+      doSetNewMoveSpeed: 0
+      newSpeed: 0
+      doMultiplyMoveSpeed: 0
+      speedMultiplier: 0
+    customScriptActions:
+      doSendMessage: 0
+      functionName: 
+      addStringParameter: 0
+      functionParameter: 
+      doSendBroadcast: 0
+      functionToBroadcast: 
+      addStringParameter2: 0
+      functionParameter2: 
+    dropAttachedObjects:
+      doDropAttachedObjects: 0
+      autoAddRigidbody: 0
+      dropTheseObjects: []
+    engagementActions:
+      doHoldPosition: 0
+      doFlee: 0
+      doChaseTarget: 0
+      doTakeCover: 0
+      doTurnTowardsEnemy: 0
+      doMoveAroundInCombat: 0
+    flagActions:
+      ActivateFlags: []
+      DeactivateFlags: []
+    rotationActions:
+      doStopAutoRotate: 0
+      doCanAutoRotate: 0
+      doRotateTowardsVector: 0
+      rotateTowardsThisVector: {x: 0, y: 0, z: 0}
+    moveToActions:
+      doMoveToSpecificPosition: 0
+      specificPosition: {x: 0, y: 0, z: 0}
+      doMoveToObject: 0
+      moveToThisObject: {fileID: 0}
+      doMoveToLastNoiseLocation: 0
+      doMoveToSignal: 0
+    playEffectsBuilder:
+      doPlayEffect: 0
+      effectName: 
+    stance:
+      doActivateStance: 0
+      stanceName: 
+    throwing:
+      doActivateThrow: 0
+    wanderAndPatrol:
+      doWander: 1
+      doPatrol: 0
+    showConsoleMessage:
+      doPrintToConsole: 0
+      printOnceOnly: 0
+      message: 
+  - Name: Flee if under attack
+    active: 0
+    DisableThisGroup: 0
+    InitialAction: 0
+    CheckOnce: 0
+    CheckEachTick: 1
+    targetingConditions:
+      IfNoThreatsDetected: 0
+      NoiseDetected: 0
+      rangeMode: 0
+      TargetInSight: 0
+      TargetNotInSight: 0
+      MatchTargetClass: 0
+      TargetClass: 
+      MatchTargetName: 0
+      TargetName: 
+      MatchTargetCharInfo: 0
+      FieldName: 
+      FieldContent: 
+      TargetDistGreaterThan: 0
+      MinEnemyDistance: 0
+      TargetDistLessThan: 0
+      MaxEnemyDistance: 0
+      CheckTargetHealth: 0
+      MinTargetHealth: 0
+      MaxTargetHealth: 0
+      CheckTargetWeight: 0
+      MinTargetWeight: 0
+      MaxTargetWeight: 0
+    agentConditions:
+      CheckIAmDead: 0
+      CheckMyHealth: 0
+      MinMyHealth: 0
+      MaxMyHealth: 0
+      CheckImUnderAttack: 1
+    signalConditions:
+      checkSignalReceiver: 0
+      thisSignal: 
+      checkNoise: 0
+    flagConditions:
+      checkFlags: 0
+      checkTheseFlags: []
+      checkFlagsInactive: 0
+      checkTheseFlagsInactive: []
+      checkGlobalFlags: 0
+      checkTheseGlobalFlags: []
+      checkGlobalFlagsInactive: 0
+      checkTheseGlobalFlagsInactive: []
+    chanceOfAction:
+      enableChance: 0
+      chance: 0
+    takeNoAction: 0
+    changeMovementSpeed:
+      doSetNewMoveSpeed: 0
+      newSpeed: 0
+      doMultiplyMoveSpeed: 0
+      speedMultiplier: 0
+    customScriptActions:
+      doSendMessage: 0
+      functionName: 
+      addStringParameter: 0
+      functionParameter: 
+      doSendBroadcast: 0
+      functionToBroadcast: 
+      addStringParameter2: 0
+      functionParameter2: 
+    dropAttachedObjects:
+      doDropAttachedObjects: 0
+      autoAddRigidbody: 0
+      dropTheseObjects: []
+    engagementActions:
+      doHoldPosition: 0
+      doFlee: 1
+      doChaseTarget: 0
+      doTakeCover: 0
+      doTurnTowardsEnemy: 0
+      doMoveAroundInCombat: 0
+    flagActions:
+      ActivateFlags: []
+      DeactivateFlags: []
+    rotationActions:
+      doStopAutoRotate: 0
+      doCanAutoRotate: 0
+      doRotateTowardsVector: 0
+      rotateTowardsThisVector: {x: 0, y: 0, z: 0}
+    moveToActions:
+      doMoveToSpecificPosition: 0
+      specificPosition: {x: 0, y: 0, z: 0}
+      doMoveToObject: 0
+      moveToThisObject: {fileID: 0}
+      doMoveToLastNoiseLocation: 0
+      doMoveToSignal: 0
+    playEffectsBuilder:
+      doPlayEffect: 0
+      effectName: 
+    stance:
+      doActivateStance: 0
+      stanceName: 
+    throwing:
+      doActivateThrow: 0
+    wanderAndPatrol:
+      doWander: 0
+      doPatrol: 0
+    showConsoleMessage:
+      doPrintToConsole: 0
+      printOnceOnly: 0
+      message: 
+  flags: []
+  showActiveLabels: 0
+  processType: 0
+  updateInterval: 2
+  smallActionRadius: 2
+  doHoldPosition: 0
+  takeNoAction: 0
+  doWander: 0
+  doPatrol: 0
+  doFlee: 0
+  doChaseTarget: 0
+  doTakeCover: 0
+  doMoveToSpecificPosition: 0
+  specificPosition: {x: 0, y: 0, z: 0}
+  doMoveToObject: 0
+  moveToThisObject: {fileID: 0}
+  doTurnTowardsEnemy: 0
+  doMoveAroundInCombat: 0
+  doMoveToSignal: 0
+  doDropAttachedObjects: 0
+  autoAddRigidbody: 0
+  dropTheseObjects: []
+  doPrintToConsole: 0
+  printOnceOnly: 0
+  message: 
+  doActivateThrow: 0
+  doMoveToLastNoiseLocation: 0
+  activateMovementStyle: 0
+  canThrow: 0
+  beginSpeech: 0
+  pause: 0
+--- !u!114 &114948912159314088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1285990568, guid: 86a4882d99cac20438d3f019832d4cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topSpeed: 2
+  stopDistance: 2
+  acceleration: 0.01
+  brakeDeceleration: 0.5
+  doNotRotateInAir: 1
+  targetSpeed: 0
+  rotateSpeed: 2
+  constantYRotation: 1
+  motorType: 0
+  cutSpeedInAir: 0
+  updateAnimator: 1
+  animatorSpeedName: Speed
+  animatorBackwardBool: Backward
+  stopIfOverturned: 0
+  autoCorrectIfFlipped: 0
+  pathfindingMethod: 0
+  drawPathDebug: 0
+  nPathWaypoints: []
+  obstacleAvoidance: 0
+  collisionSensorPosition: {fileID: 4974731428705588}
+  detectionDistance: 1
+  useNavMesh: 0
+  sendNoise: 0
+  sendNoiseInterval: 2.5
+  baseNoiseDistance: 1
+  noiseSpeedMultiplier: 10
+  noiseDistColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  customScriptEvents:
+    functionOnMove: 
+    functionOnCalculatePath: 
+    functionOnPathNotValid: 
+    functionOnAccelerate: 
+    functionOnDecelerate: 
+  moveEvents: {fileID: 0}
+  obstacleAvoidanceUpdateTime: 0.3
+  vectorCalcUpdateTime: 0.3
+  spinWheelsOnMove: 0
+  wheelSpinSpeedMultiplier: 30
+  wheels: []
+  speed: 0
+  noise: 0
+  distToDest: 0
+  destination: {x: 0, y: 0, z: 0}
+  finalNavDest: {x: 0, y: 0, z: 0}
+  rotDestination: {x: 0, y: 0, z: 0}
+  isMoving: 0
+  hasArrived: 0
+  canMove: 0
+  canRot: 1
+  hasAlmostArrived: 1
+  moveForward: 0
+  customRotation: 0
+  matchDestRotation: 0
+  originalMatchDestRotation: 0
+--- !u!136 &136202999776690804
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310383582682300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.42
+  m_Height: 0.58
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.1, z: 0}
+--- !u!136 &136507679303459918
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868867364440676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136792710936408612
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310383582682300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 0.58
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.1, z: 0}
+--- !u!195 &195765684028874840
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310383582682300}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
